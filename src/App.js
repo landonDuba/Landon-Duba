@@ -76,7 +76,7 @@ function App() {
               <a href="mailto:landonduba@vt.edu">
                 <MdEmail size={40}></MdEmail>
               </a>
-              <a href="www.linkedin.com/in/landonduba">
+              <a href="https://www.linkedin.com/in/landonduba">
                 <FaLinkedin size={40}></FaLinkedin>
               </a>
               <a href="https://leetcode.com/u/LandonDuba/">
@@ -85,7 +85,7 @@ function App() {
             </div>
         </div>
         <div>
-          <img className="photo" src="./landon.jpeg" alt=""></img>
+          <img className="photo" src={process.env.PUBLIC_URL + '/landon.jpeg'} alt=""></img>
         </div>
     </div>
 
@@ -98,7 +98,7 @@ function App() {
       </div>
       <div class="expBoxes">
           <div class="box1">
-              <img className='logo1' src="./mant.png" alt=""></img>
+              <img className='logo1' src={process.env.PUBLIC_URL +"/mant.png"} alt=""></img>
               <div className='box1Text'> 
                 <h5 className='title1'>ManTech International</h5>
                 <p>Software Engineer Intern</p>
@@ -106,7 +106,7 @@ function App() {
               </div>
           </div>
             <div class="box1">
-              <img className='logo2' src="./vtlogo.png" alt=""></img>
+              <img className='logo2' src={process.env.PUBLIC_URL +"/vtlogo.png"} alt=""></img>
               <div className='box1Text'> 
                 <h5 className='title1'>Virginia Tech</h5>
                 <p>Bachelor's of Science, Computer Science</p>
@@ -125,7 +125,7 @@ function App() {
       </div>
       <div class="proBoxes">
           <div class="box1">
-              <img className='logo3' src="./map.png" alt=""></img>
+              <img className='logo3' src={process.env.PUBLIC_URL +"/map.png"} alt=""></img>
               <div className='box2Text'> 
                 <h5 className='title1'>Safety Map</h5>
                 <p>A map that scores the safety of your route</p>
@@ -136,7 +136,7 @@ function App() {
               </div>
           </div>
             <div class="box1">
-              <img className='logo4' src="./discord.png" alt=""></img>
+              <img className='logo4' src={process.env.PUBLIC_URL +"/discord.png"} alt=""></img>
               <div className='box2Text'> 
                 <h5 className='title1'>Discord Extension</h5>
                 <p>Added more customization, 35+ Downloads</p>
