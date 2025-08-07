@@ -1,38 +1,238 @@
-.App {
-  text-align: center;
+.app{
+  background-color: #1b263b; /* #1b263b #151920*/
+  margin: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar{
+  color: white;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
+}
+
+.about_photo{
+  color: white;
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+  text-align: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-bottom: 50px;
+}
+
+.intro, .name, .info{
+  padding: 0;
+  margin: 2px;
+}
+
+
+.links{
+  display: flex;
+  gap:15px;
+}
+
+.link_name{
+  display: flex;
+  gap: 1px;
+}
+
+.temp{
+  text-underline-offset: 5px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.resume{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 50px;
+  width: 300px;
+  color: white;
+  background-color: #151920;
+  font-size: 15px;
+  border: white solid 2px;
+  border-radius: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.resume:hover{
+  background-color: beige;
+  color: black;
+  border: black solid 2px;
+}
+
+.links{
+  justify-content: center;
+}
+
+.links a{
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+}
+
+.links a:hover{
+  justify-content: center;
+  color: gray;
+  text-decoration: none;
+}
+
+.photo {
+  margin-left: 40px;
+  height: 400px;
+  width: auto;
+  border-radius: 50%;
+  border: white solid 1px;
+}
+
+.expTitle{
+  color: white;
+  font-size: 30px;
+}
+
+.expBoxes{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+}
+
+.box1 {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  gap: 5px; 
+}
+
+.box1Text h5, .box1Text p {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 2px;
+}
+
+.logo1{
+  height: 100px;
+  width: 200px;
+  padding-left: 0px;
+}
+
+.logo2{
+  height: 80px;
+  width: 160px;
+  padding-left: 0px;
+}
+
+.title1{
+  font-size: 20px;
+}
+
+.exp{
+  padding-bottom: 50px;
+}
+
+.logo3, .logo4{
+  height: 100px;
+  width: 100px;
+}
+
+.proBoxes{
+  margin-left: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+}
+
+.box2Text h5, .box2Text p{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 2px;
+  margin-left: 40px;
+  color: white;
+}
+
+.box2Text a {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 2px;
+  color: white;
+}
+
+.projLink{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.gitLink{
+  margin-left: 40px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.skTitle{
+  color: white;
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+.skExtra{
+  margin-top: 0px;
+  color: white;
+  font-size: 18px;
+}
+
+
+.skillList{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.skill {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills{
+  margin-bottom: 50px;
+}
+
+.last{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  padding-bottom: 0;
+  align-items: center;
+}
+
+.flying-basketball {
+  position: fixed;
+  top: 100px;
+  left: 0;
+  z-index: 999;
+  animation: fly-across 3s linear forwards;
+}
+
+@keyframes fly-across {
+  0% {
+    transform: translate(0, 0);
+    opacity: 1;
   }
-  to {
-    transform: rotate(360deg);
+  100% {
+    transform: translate(100vw, 100px);
+    opacity: 0;
   }
 }
