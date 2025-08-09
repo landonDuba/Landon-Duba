@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Landon-Duba/static/css/main.13ec3ae9.css",
+    "main.css": "/Landon-Duba/static/css/main.f73087e8.css",
     "main.js": "/Landon-Duba/static/js/main.394cad9a.js",
     "static/js/453.1b009f73.chunk.js": "/Landon-Duba/static/js/453.1b009f73.chunk.js",
     "index.html": "/Landon-Duba/index.html",
-    "main.13ec3ae9.css.map": "/Landon-Duba/static/css/main.13ec3ae9.css.map",
+    "main.f73087e8.css.map": "/Landon-Duba/static/css/main.f73087e8.css.map",
     "main.394cad9a.js.map": "/Landon-Duba/static/js/main.394cad9a.js.map",
     "453.1b009f73.chunk.js.map": "/Landon-Duba/static/js/453.1b009f73.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.13ec3ae9.css",
+    "static/css/main.f73087e8.css",
     "static/js/main.394cad9a.js"
   ]
 }
